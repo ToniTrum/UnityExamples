@@ -51,7 +51,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -72,6 +72,7 @@ MonoBehaviour:
   speed: 4
   detonationTime: 3
   explosion: {fileID: 2944296704455042818, guid: 88c170e6830971d47899050b7c80c91e, type: 3}
+  damage: 30
 --- !u!1 &1489854418725231250
 GameObject:
   m_ObjectHideFlags: 0
